@@ -1,0 +1,102 @@
+body {
+    background: #E5DDD5 url("./assets/sports.png") fixed;
+}
+.page-header {
+    background: #465463;
+    margin: 0;
+    padding: 20px 0 10px;
+    color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    z-index: 1
+}
+.main {
+    height: 100vh;
+    padding-top: 70px;
+}
+
+.chat-log {
+    padding: 40px 0;
+    height: auto;
+    overflow: auto;
+}
+
+.chat-log__item {
+    background: #fafafa;
+    padding: 10px;
+    margin: 0 auto 20px;
+    max-width: 80%;
+    float: left;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    clear: both;
+}
+
+.chat-log__item--own {
+    float: right;
+    text-align: right;
+    background: #465463;
+    color: #fff;
+}
+
+.chat-form {
+    background: #DDDDDD;
+    padding: 40px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.chat-log__author {
+    margin: 0 auto .5em;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.chat-log__time {
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.chat-log__noty {
+    text-align: center;
+    color: grey;
+    font-size: 12px;
+    clear: both;
+    margin-bottom: 5px;
+}
+
+.btn {
+    background: #465463;
+    color: #fff;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #394650;
+}
+
+.title {
+    margin: 40px 0 20px;
+}
+
+.user {
+    position: relative;
+    margin-bottom: 7px;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.user::before {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 8px;
+    height: 8px;
+    content: '';
+    display: inline-block;
+    background: green;
+    border-radius: 50%;
+}
