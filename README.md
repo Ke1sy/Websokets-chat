@@ -1,5 +1,9 @@
 # Websokets-chat
 
-## install modules:
+### install modules:
 
 npm i
+
+### run server:
+
+npm run start
